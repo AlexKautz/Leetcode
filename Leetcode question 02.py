@@ -107,6 +107,7 @@ class Tests:
         node1 = ListNode(4, ListNode(3, ListNode(8)))
         node2 = ListNode(4, ListNode(6, ListNode(5, ListNode(3, ListNode(8)))))
         outString = str(Solution.addTwoNumbers(None, node1, node2))
+        print(outString)
         assert(outString == "8*4*3*9*8")
     
 
@@ -116,6 +117,7 @@ class Tests:
         node1 = ListNode(1)
         node2 = ListNode(9, ListNode(9))
         outString = str(Solution.addTwoNumbers(None, node1, node2))
+        print(outString)
         assert(outString == "1*0*0")
 
 
