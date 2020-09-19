@@ -1,5 +1,7 @@
-a = [1, 2, 4, 5]
+a = [1, 2, 4, 5, 6, 7, 8]
 
 for i in a:
-    print(i)
-    print(i+1)
+    print(i, end="")
+    print(i+1, end="")
+    print(i-1, end=" ")
+print()
